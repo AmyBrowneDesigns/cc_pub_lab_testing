@@ -23,3 +23,4 @@ class TestCustomer(unittest.TestCase):
     def test_add_drink_to_customer(self):
         self.customer.add_drink_to_customer(self.drink)
         self.assertEqual("water", self.customer.customer_drinks[0].name)
+        self.assertEqual(1,len(self.customer.customer_drinks))

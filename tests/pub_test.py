@@ -9,5 +9,5 @@ class TestPub(unittest.TestCase):
         self.assertEqual("Ox", self.pub.name)
 
 
-    def 
+
     

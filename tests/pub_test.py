@@ -19,6 +19,9 @@ class TestPub(unittest.TestCase):
         self.pub.add_drink(beverage_2)
         self.assertEqual(3, len(self.pub.drinks))
 
+    def test_check_drink_stock(self):
+        self.assertEqual(0, len(self.pub.drinks))
+
     def test_increase_pub_till(self):
         self.pub.increase_pub_till(self.drink.price)
         self.assertEqual(105.00, self.pub.cash)

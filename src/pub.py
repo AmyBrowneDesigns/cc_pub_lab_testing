@@ -9,6 +9,9 @@ class Pub:
         self.drinks.append(beverage)
 
 
+    def check_drink_stock(self):
+        return len(self.drinks)
+
 
     def increase_pub_till(self, amount):
         self.cash += amount

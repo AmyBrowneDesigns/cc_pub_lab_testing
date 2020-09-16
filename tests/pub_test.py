@@ -25,6 +25,14 @@ class TestPub(unittest.TestCase):
     def test_increase_pub_till(self):
         self.pub.increase_pub_till(self.drink.price)
         self.assertEqual(105.00, self.pub.cash)
+
+
+    #def test_add_drink_to_customer(self):
+
+
+
+    #def test_sell_drink_to_customer(self):
+
     
     # def test_reduce_wallet(self):
     #     self.customer.reduce_wallet(self.drink.price)
